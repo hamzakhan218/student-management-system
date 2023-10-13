@@ -13,9 +13,11 @@ function Homepage() {
             <div className='col-span-1 font-bold cursor-pointer'>About US</div>
             <div className='col-span-1 font-bold cursor-pointer'>Feedback</div>
             <div className='col-span-4 flex justify-end'>
-            <div className='h-[20px] w-[75px] rounded-sm bg-yellow-400 p-5 flex justify-center items-center shadow-2xl col-span-4'>
-                <button className=' cursor-pointer'>LOGIN</button>
-            </div>
+                <a href='/login'>
+                    <div className='h-[20px] w-[75px] rounded-sm bg-yellow-400 p-5 flex justify-center items-center shadow-2xl col-span-4'>
+                        <button className=' cursor-pointer'>LOGIN</button>
+                    </div>
+                </a>
             </div>
         </div>
       <div className='relative'>
